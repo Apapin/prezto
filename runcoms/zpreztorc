@@ -28,11 +28,15 @@ zstyle ':prezto:load' pmodule \
   'terminal' \
   'editor' \
   'history' \
+  'history-substring-search' \
   'directory' \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt'
+  'prompt' \
+  'tmux' \
+  'syntax-highlighting' \
+  'osx'
 
 #
 # Editor

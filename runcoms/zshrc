@@ -10,4 +10,12 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+# Customize to your needs..
+
+function chpwd() {
+    emulate -L zsh
+    ll
+}
+source /usr/local/share/zsh/site-functions/_aws
+export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.0.2
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home
